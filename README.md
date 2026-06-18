@@ -2,37 +2,49 @@
 
 ## Overview
 
-This repository contains the projects completed during my Data Science Internship at Pinnacle Labs. These projects demonstrate the application of Python, Machine Learning, and Natural Language Processing techniques to solve real-world problems.
+This repository contains the projects completed as part of my Data Science Internship at Pinnacle Labs. These projects demonstrate the application of Python, Machine Learning, and Natural Language Processing (NLP) techniques to solve real-world problems.
+
+---
 
 ## Projects
 
 ### 1. Fake News Detection
 
-**Objective:**
-Develop a machine learning model to identify and classify fake news articles, helping promote information accuracy and reliability.
+#### Objective
 
-**Technologies Used:**
+Develop a machine learning model to identify and classify news articles as Fake or Real, helping promote information accuracy and reduce misinformation.
+
+#### Technologies Used
 
 * Python
 * Pandas
 * Scikit-learn
-* TF-IDF Vectorization
+* TF-IDF Vectorizer
 * Passive Aggressive Classifier
 
-**Features:**
+#### Features
 
-* Text preprocessing
+* Text preprocessing and cleaning
 * Fake vs Real news classification
-* Model evaluation using accuracy metrics
+* Model training and evaluation
+* Accuracy measurement and performance analysis
+
+#### Dataset
+
+* WELFake Dataset
+* Source: Kaggle
+
+**Note:** The dataset is not included in this repository due to GitHub file size limitations. Please download the WELFake Dataset from Kaggle and place it in the project directory before running the notebook.
 
 ---
 
 ### 2. Sentiment Analysis
 
-**Objective:**
-Analyze customer reviews and determine whether the sentiment expressed is positive or negative.
+#### Objective
 
-**Technologies Used:**
+Analyze customer reviews and classify them as Positive or Negative to help businesses understand customer feedback and make informed decisions.
+
+#### Technologies Used
 
 * Python
 * Pandas
@@ -40,37 +52,52 @@ Analyze customer reviews and determine whether the sentiment expressed is positi
 * CountVectorizer
 * Multinomial Naive Bayes
 
-**Features:**
+#### Features
 
+* Text preprocessing
+* Sentiment classification
 * Customer feedback analysis
-* Sentiment prediction
-* Text classification
+* Positive and Negative review prediction
+
+#### Dataset
+
+* IMDb Movie Reviews Dataset
+* Source: Kaggle
+
+**Note:** The dataset is not included in this repository due to GitHub file size limitations. Please download the IMDb Dataset from Kaggle and place it in the project directory before running the notebook.
 
 ---
 
-### 3. Chatbot using Python
+### 3. Chatbot Using Python
 
-**Objective:**
-Develop a Python-based chatbot capable of interactive communication and basic customer support.
+#### Objective
 
-**Technologies Used:**
+Develop a Python-based chatbot capable of interactive communication and basic customer support using predefined responses.
+
+#### Technologies Used
 
 * Python
 
-**Features:**
+#### Features
 
 * Interactive conversation
-* Predefined responses
-* User-friendly communication
+* User-friendly responses
+* Basic customer support simulation
+* Command-based response handling
 
-## Skills Gained
+---
+
+## Skills Demonstrated
 
 * Python Programming
 * Machine Learning
 * Natural Language Processing (NLP)
-* Data Analysis
+* Text Classification
+* Data Preprocessing
 * Model Training and Evaluation
 * GitHub Project Management
+
+---
 
 ## Author
 
